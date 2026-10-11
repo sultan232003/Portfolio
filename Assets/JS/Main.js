@@ -50,11 +50,13 @@ document.addEventListener("DOMContentLoaded", (e) => {
         scale: 2,
         stagger: 0.05})
     
-    about_me_animation.to(About_Me__Para_2,{
-        duration: 5,
+    about_me_animation.to(About_Me__Para_2_split.chars,{
+        duration: 2,
         delay:10,
         filter: "blur(10px)",
-        autoAlpha: 0
+        autoAlpha: 0,
+        scale: 2,
+        stagger: 0.05
     })
 
     about_me_animation.from(About_Me__Para_1_split.chars, {duration: 5, 
@@ -63,11 +65,13 @@ document.addEventListener("DOMContentLoaded", (e) => {
         scale:2,
         stagger: 0.05})
 
-    about_me_animation.to(About_Me__Para_1,{
-        duration: 5,
+    about_me_animation.to(About_Me__Para_1_split.chars,{
+        duration: 2,
         delay:10,
         filter: "blur(10px)",
-        autoAlpha: 0
+        autoAlpha: 0,
+        scale: 2,
+        stagger: 0.05
     })
 
     about_me_animation.from(About_Me__Para_3_split.chars, {duration: 5, 
